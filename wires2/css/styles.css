@@ -108,9 +108,9 @@ b {font-weight:bold;}
 .mspan10 {width:80.33333333333333%;}
 .mspan11 {width:91.66666666666666%;}
 .mspan12 {width:97%;}
-.mobile236 > div, .m-4-6-12 > [class*="span"] {width:30.33333333333333%;}
-.mobile203 > div, .m-4-0-6 > [class*="span"] {width:30.33333333333333%;}
-.mobile203 > div, .m-3-4-6 > [class*="span"] {width:23%;}
+.m-4-6-12 > [class*="span"] {width:30.33333333333333%;}
+.m-4-0-6 > [class*="span"] {width:30.33333333333333%;}
+.m-3-4-6 > [class*="span"] {width:23%;}
 
 /* specific adjustments */
 .cta1 {padding:8px 10px;}
@@ -119,8 +119,8 @@ b {font-weight:bold;}
 }
 
 @media (max-width: 600px) {
-.m1 {display:inherit!important;}
 .m {display:none!important;}
+.m1 {display:inherit!important;}
 body {font-size:9px;padding:0;margin:0;}
 .m1span1 {width:8.333333333333333%;}
 .m1span2 {width:13.66666666666667%;}
@@ -134,9 +134,9 @@ body {font-size:9px;padding:0;margin:0;}
 .m1span10 {width:80.33333333333333%;}
 .m1span11 {width:91.66666666666666%;}
 .m1span12 {width:97%;}
-.mobile236 > div, .m-4-6-12 > [class*="span"] {width:47%;}
-.mobile203 > div, .m-4-0-6 > [class*="span"] {width:30.33333333333333%;}
-.mobile203 > div, .m-3-4-6 > [class*="span"] {width:30.33333333333333%;}
+.m-4-6-12 > [class*="span"] {width:47%;}
+.m-4-0-6 > [class*="span"] {width:30.33333333333333%;}
+.m-3-4-6 > [class*="span"] {width:30.33333333333333%;}
 
 /* specific adjustments */
 .cta1 {font-size:1.2em;}
@@ -153,8 +153,8 @@ body {font-size:9px;padding:0;margin:0;}
 }
 
 @media (max-width: 350px) {
-.m2 {display:inherit!important;}
 .m, .m1 {display:none!important;}
+.m2 {display:inherit!important;}
 .m2span1 {width:8.333333333333333%;}
 .m2span2 {width:13.66666666666667%;}
 .m2span3 {width:22%;}
@@ -167,8 +167,8 @@ body {font-size:9px;padding:0;margin:0;}
 .m2span10 {width:80.33333333333333%;}
 .m2span11 {width:91.66666666666666%;}
 .m2span12 {width:97%;}
-.mobile236 > div, .m-4-6-12 > [class*="span"] {width:97%;}
-.mobile203 > div, .m-4-0-6 > [class*="span"] {width:47%;}
-.mobile203 > div, .m-3-4-6 > [class*="span"] {width:47%;}
+.m-4-6-12 > [class*="span"] {width:97%;}
+.m-4-0-6 > [class*="span"] {width:47%;}
+.m-3-4-6 > [class*="span"] {width:47%;}
 
 }
