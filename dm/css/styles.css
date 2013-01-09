@@ -31,7 +31,7 @@ footer .container {border-top:none!important;}
 }
 .nav li a:hover {background:#ffc900;color:#000;}
 .nav li.current a {background:#ffc900;color:#000;}
-.nav li#main-logo a {position:absolute;left:-12px;top:-234%;padding:0;width:184px;height:auto;border:none;margin:0;background:none;display:block;}
+.nav li#main-logo a {position:absolute;left:-11px;top:-234%;padding:0;width:184px;height:auto;border:none;margin:0;background:none;display:block;}
 .nav li#main-logo a:hover {}
 .del-monte-logo {width:133px;margin:11px 0 0 10%;}
 footer .del-monte-logo {width:120px;display:block;margin:0 auto;}
@@ -107,6 +107,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 .pagenavi .cta1 {border:none;padding:5px 10px 0 0;background:none;}
 .pagenavi .cta-wrap.alignright .cta1 {border:none;padding:5px 0 0 10px;background:none;}
 .pagenavi .cta-wrap, .pagenavi p {margin-bottom:0;}
+.prizes #main .cta-wrap {margin-bottom:43px;}
 
 /* gallery
 ============================================ */
@@ -130,6 +131,10 @@ img {width:100%;height:auto;display:block;}
 .alignleft{text-align:left;}
 .aligncenter{text-align:center;}
 .alignright{text-align:right;}
+.thebolds {font-weight:900;}
+.thebolds1 {font-weight:700;}
+.thebolds2 {font-weight:600;}
+.thenormals {font-weight:400;}
 b {font-weight:inherit;}
 .clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0;height:0;}
 .clear4 {clear:left;}
@@ -152,7 +157,6 @@ img.heroimage {margin-top: 30px;}
 .home .thearticles article  {width: 166px;}
 .clear4 {clear:none!important;}
 .masthead {background: url(../img/header-background.png) 40% bottom #256921 no-repeat;}
-
 
 }
 
