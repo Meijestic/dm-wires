@@ -30,7 +30,7 @@ footer .container {border-top:none!important;}
 }
 .nav li a:hover {background:#ffc900;color:#000;}
 .nav li.current a {background:#ffc900;color:#000;}
-.nav li#main-logo a {position:absolute;left:0;top:-234%;padding:0;width:184px;height:auto;border:none;margin:0;background:none;display:block;}
+.nav li#main-logo a {position:absolute;left:-12px;top:-234%;padding:0;width:184px;height:auto;border:none;margin:0;background:none;display:block;}
 .nav li#main-logo a:hover {}
 .del-monte-logo {width:133px;margin:11px 0 0 10%;}
 footer .del-monte-logo {width:120px;display:block;margin:0 auto;}
