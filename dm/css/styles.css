@@ -113,6 +113,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 
 .thearticles article > div {border:2px solid #ad1411;border-radius:8px;background:white;box-shadow:none;}
 .thearticles article > div {border:none;border-radius:8px;background:white;box-shadow:0 0 3px #111;}
+.lt-ie9 .thearticles article > div {border:1px solid #777;}
 
 .thearticles article .info {padding:11px 10px 11px;position:relative;}
 .rating {font-size:2.5em;color:#ccc;position:absolute;right:14px;top:10px;}
