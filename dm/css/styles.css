@@ -76,6 +76,7 @@ p {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;m
 .prizes .thearticles article .info p {text-align: center;margin-bottom:0.8em;}
 
 .thearticles article h3 {font-size:1.7em;line-height:1.2em;font-weight:700;color:#333;padding:10px 10px 0;}
+.prizes .thearticles article h3 {padding:16px 10px 0;}
 .thearticles article h3 a {color:#333;}
 .thearticles article h3 a:hover {color:#ad1411;}
 .thearticles article .info p{margin:0;}
