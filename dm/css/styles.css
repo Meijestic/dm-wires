@@ -107,7 +107,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 .pagenavi .cta1 {border:none;padding:5px 10px 0 0;background:none;}
 .pagenavi .cta-wrap.alignright .cta1 {border:none;padding:5px 0 0 10px;background:none;}
 .pagenavi .cta-wrap, .pagenavi p {margin-bottom:0;}
-.prizes #main .cta-wrap {margin-bottom:43px;}
+.prizes #main .cta-wrap {margin-bottom:43px;padding-top:0;}
 
 /* gallery
 ============================================ */
@@ -136,8 +136,11 @@ img {width:100%;height:auto;display:block;}
 .thebolds2 {font-weight:600;}
 .thenormals {font-weight:400;}
 b {font-weight:inherit;}
+.border {border-top:3px solid #ffc900;height:1px;display:block;overflow:hidden;}
 .clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0;height:0;}
 .clear4 {clear:left;}
+/* adjustments */
+.prizes .border {clear:both;margin-top:14px;padding-bottom:30px;}
 
 /* misc
 ============================================ */
@@ -237,6 +240,7 @@ body .container-wrap:first-child + .container-wrap .container:first-child {borde
 img.heroimage {width: 44%;margin: 0 auto;position: absolute;top: 13.5em;right: 0;}
 .container {padding: 25px 0 28px;}
 .masthead .del-monte-logo {left: 103px;}
+.prizes #main .cta-wrap .cta1{display:block;}
 
 }
 
@@ -296,6 +300,7 @@ img.heroimage {width: 80%;}
 h6{font-size:1.7em;}
 .signin {font-size:1.5em;right:-5px;}
 p {font-size:1.7em;}
+
 }
 @media (max-width: 310px) {
 
