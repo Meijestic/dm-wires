@@ -2,9 +2,9 @@
 ============================================ */
 html {font-size:100%;padding:0;margin:0;background:#256921;}
 body {font-size:10px;padding:0;margin:0;background:#256921;}
-.container {padding:22px 0 35px;}
+.container {padding:22px 0 34px;}
 .container-wrap .container:first-child {border-top:none;}
-body .container-wrap:first-child + .container-wrap .container:first-child {border-top:none;padding-top:20px;} /* skip masthead border top - this is the hero container */
+body .container-wrap:first-child + .container-wrap .container:first-child {border-top:none;padding-top:25px;} /* skip masthead border top - this is the hero container */
 body.home #main .container + .container {padding-bottom:16px;} /* in case homepage features 1 row of recipes */
 .masthead {background:url(../img/header-background.png) 50% bottom #256921 no-repeat;border-bottom:7px solid #ffc900;box-shadow:1px 0px 12px #000;z-index:1;position:relative;}
 .masthead .container {padding:0;border-top:none!important;padding:45px 0 0;position:relative;}
@@ -30,10 +30,17 @@ footer .container {border-top:none!important;}
 -moz-transition-duration: 190ms;
 }
 .nav li a:hover {background:#ffc900;color:#000;}
-.nav li.current a {background:#ffc900;color:#000;}
+.nav li.current a {background:#ffc900;color:#000;
+background: -moz-linear-gradient(top,  #d6a400 1%, #fec800 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#d6a400), color-stop(100%,#fec800)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #d6a400 1%,#fec800 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #d6a400 1%,#fec800 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #d6a400 1%,#fec800 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #d6a400 1%,#fec800 100%); /* W3C */
+}
 .nav li#main-logo a {position:absolute;left:-11px;top:-234%;padding:0;width:184px;height:auto;border:none;margin:0;background:none;display:block;}
 .nav li#main-logo a:hover {}
-.del-monte-logo {width:133px;margin:11px 0 0 10%;}
+.del-monte-logo {width:133px;margin:3px 0 0 10%;}
 footer .del-monte-logo {width:120px;display:block;margin:0 auto;}
 .masthead .del-monte-logo {position: absolute;top: 2px;left: 120px;margin: 0;width: 37px;}
 .signin {font-family:'Source Sans Pro', sans-serif;font-size:1.3em;position:absolute;top:0;right:2px;color:#9cd099;text-transform:uppercase;font-weight:600;background:#21611e;padding:0.2em 1em 0.3em;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;
@@ -64,7 +71,7 @@ h4 {font-size: 2.0em;margin: 0 0 0.6em 0;line-height:1.4em;font-weight:400;color
 h4 span {font-weight:700;}
 h5 {font-size: 1.7em;margin: 0 0 0.7em 0;line-height:1.4em;font-weight:400;}
 h6 {font-size: 1.6em;margin: 0 0 0.8em 0;line-height:1.4em;font-weight:400;}
-p {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;margin-bottom:0.8em;}
+p {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;margin-bottom:0.9em;}
 .reg {font-size:0.7em;}
 
 /* adjustments */
@@ -123,7 +130,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 
 /* utility
 ============================================ */
-img {width:100%;height:auto;display:block;}
+img {max-width:100%;height:auto;display:block;}
 .first {padding-bottom:0!important;}
 .dreverse {float:right!important;}
 .reverse {float:right!important;}
@@ -202,7 +209,7 @@ h6{font-size:1.8em;}
 .nav li#main-logo a {top:-210%;padding:0;width:160px}
 .masthead {background: url(../img/header-background.png) 26% bottom #256921 no-repeat;}
 body .container-wrap:first-child + .container-wrap .container:first-child {border-top:none;padding-top:14px;}
-.del-monte-logo {width:auto;margin: 20px 0 0 0;}
+.del-monte-logo {margin: 14px 0 0 0;}
 .masthead .del-monte-logo {left: 114px;}
 .pageinfowrap p {font-size:1.8em;}
 .pagenavi p.cta-wrap .cta1 {margin-left:-9px;}
@@ -302,6 +309,6 @@ h6{font-size:1.7em;}
 p {font-size:1.7em;}
 
 }
-@media (max-width: 310px) {
-
+@media (max-width: 315px) {
+.nav li a {font-size:1.9em;height:1.7em;line-height:1.7em;padding:0 0.4em 0.1em;}
 }
