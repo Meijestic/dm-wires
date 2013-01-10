@@ -137,6 +137,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 /* the recipe
 ============================================ */
 .recipedetails img  {margin-bottom:14px;border-radius:4px;}
+.recipedetails   {position:relative;}
 
 /* utility
 ============================================ */
@@ -168,6 +169,8 @@ b {font-weight:inherit;}
 .socialshare img {width:57px;border-radius:4px;border:1px solid rgba(0,0,0,0.34);float:left;margin-left:7px;margin-bottom:7px;}
 .socialshare .pin img {margin-left:0;}
 .socialshare a:hover img {border:1px solid #000;}
+.ratingwrap img{width:43px;float:left;}
+.ratingwrap{position:absolute;top:0;right:0;}
 	 
 /* responsive
 ============================================ */
@@ -230,6 +233,7 @@ body .container-wrap:first-child + .container-wrap .container:first-child {borde
 .pagenavi p.cta-wrap.alignright .cta1 {margin-right:-9px;}
 .cta1 {font-size:1.2em;}
 .socialshare .twit img {margin-left:0;}
+.ratingwrap img{width:37px;}
 }
 
 @media (max-width: 600px) {
@@ -264,6 +268,8 @@ img.heroimage {width: 44%;margin: 0 auto;position: absolute;top: 13.5em;right: 0
 .masthead .del-monte-logo {left: 103px;}
 .prizes #main .cta-wrap .cta1{display:block;}
 .socialshare img {width:55px;float:none;margin-left:0;display:block;}
+.ratingwrap{position:static;}
+.ratingwrap img{width:34px;}
 }
 
 @media (max-width: 450px) {
