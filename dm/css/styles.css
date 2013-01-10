@@ -56,6 +56,7 @@ footer .del-monte-logo {width:120px;display:block;margin:0 auto;}
 ============================================ */
 .hero {background:url(../img/tomatoes-for-sauce.jpg) center top;z-index:0;position:relative;}
 .recipe .hero {background:url(../img/tomato2.jpg) center bottom; z-index:0;position:relative;}
+.gallery .hero {background:url(../img/chili.jpg) center bottom; z-index:0;position:relative;}
 img.heroimage {margin-top:16px;}
 .hero h1 {margin-top:0.3em;}
 .hero h4 {margin-right:3%;color:#fff;}
@@ -122,6 +123,7 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 .pagenavi .cta-wrap.alignright .cta1 {border:none;padding:5px 0 0 10px;background:none;}
 .pagenavi .cta-wrap, .pagenavi p {margin-bottom:0;}
 .prizes #main .cta-wrap {margin-bottom:43px;padding-top:0;}
+.recipe .cta1 {padding-left:57px;padding-right:57px;}
 
 /* gallery
 ============================================ */
@@ -136,7 +138,8 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 
 /* the recipe
 ============================================ */
-.recipedetails img  {margin-bottom:14px;border-radius:4px;}
+.recipedetails .userphoto  {padding:10px;box-shadow:0 1px 4px rgba(0,0,0,0.7);background:#fff;box-sizing:border-box;-moz-box-sizing: border-box; -webkit-box-sizing: border-box;margin-bottom:16px;}
+.lt-ie8 .recipedetails .userphoto {padding:0;border:1px solid #555;}
 .recipedetails   {position:relative;}
 
 /* utility
@@ -159,7 +162,7 @@ b {font-weight:inherit;}
 .clear4 {clear:left;}
 /* adjustments */
 .prizes .border {clear:both;margin-top:14px;padding-bottom:30px;}
-.recipe .border {clear:both;margin-top:20px;padding-bottom:20px;}
+.recipe .border {clear:both;margin-top:14px;padding-bottom:20px;}
 
 /* misc
 ============================================ */
@@ -327,7 +330,7 @@ img.heroimage {width: 80%;}
 .hero  {text-align:center;} /* center everything else */
 .thearticles article h3 {font-size:2.0em;}
 h6{font-size:1.7em;}
-.signin {font-size:1.5em;right:-5px;}
+.signin {font-size:1.5em;right:0px;}
 p, #main ul, ol {font-size:1.7em;}
 .socialshare img {margin-left:5px!important;float:left;}
 .socialshare  {width: 200px;margin: 0 auto;float: none;clear: left;padding-top:14px;}
