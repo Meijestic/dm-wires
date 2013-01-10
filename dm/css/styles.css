@@ -123,7 +123,8 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 .pagenavi .cta-wrap.alignright .cta1 {border:none;padding:5px 0 0 10px;background:none;}
 .pagenavi .cta-wrap, .pagenavi p {margin-bottom:0;}
 .prizes #main .cta-wrap {margin-bottom:43px;padding-top:0;}
-.recipe .cta1 {padding-left:57px;padding-right:57px;}
+.recipe .cta1 {padding-left:57px;padding-right:57px;margin-top:0;}
+.recipe .cta-wrap {padding-top:0;}
 
 /* gallery
 ============================================ */
