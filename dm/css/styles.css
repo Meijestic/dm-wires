@@ -72,7 +72,7 @@ h3 {font-size: 2.0em;margin: 0 0 0.6em 0;line-height:1.3em;font-weight:600;}
 h4 {font-size: 2.0em;margin: 0 0 0.6em 0;line-height:1.4em;font-weight:400;color:#333;}
 h4 span {font-weight:700;}
 h5 {font-size: 1.7em;margin: 0 0 0.7em 0;line-height:1.4em;font-weight:400;}
-h6 {font-size: 1.6em;margin: 0 0 0.8em 0;line-height:1.4em;font-weight:400;}
+h6 {font-size: 1.6em;margin: 0 0 0.8em 0;line-height:1.3em;font-weight:400;}
 p {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;margin-bottom:0.9em;}
 #main ul  {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;margin-bottom:0.9em;margin-left:19px;}
 ol {font-size:1.6em;line-height:1.4em;font-family:'Source Sans Pro', sans-serif;margin-bottom:0.9em;margin-left:25px;}
@@ -163,11 +163,12 @@ b {font-weight:inherit;}
 /* misc
 ============================================ */
 .pageinfowrap p {margin-top:8px;}
-.socialshare {margin-top:16px;}
-.socialshare > div {padding-bottom:4px;}
-.facebookwrap {overflow:hidden;width:50px;}
-.pintrestwrap {height:23px;}
-
+.socialshare h6 {color:#fff;font-weight:600;}
+.socialshare {margin-top:11px;}
+.socialshare img {width:57px;border-radius:4px;border:1px solid rgba(0,0,0,0.34);float:left;margin-left:7px;margin-bottom:7px;}
+.socialshare .pin img {margin-left:0;}
+.socialshare a:hover img {border:1px solid #000;}
+	 
 /* responsive
 ============================================ */
 @media (max-width: 979px) {
@@ -181,7 +182,6 @@ img.heroimage {margin-top: 30px;}
 .home .thearticles article  {width: 166px;}
 .clear4 {clear:none!important;}
 .masthead {background: url(../img/header-background.png) 40% bottom #256921 no-repeat;}
-
 }
 
 @media (max-width: 767px) {
@@ -229,6 +229,7 @@ body .container-wrap:first-child + .container-wrap .container:first-child {borde
 .pagenavi p.cta-wrap .cta1 {margin-left:-9px;}
 .pagenavi p.cta-wrap.alignright .cta1 {margin-right:-9px;}
 .cta1 {font-size:1.2em;}
+.socialshare .twit img {margin-left:0;}
 }
 
 @media (max-width: 600px) {
@@ -262,7 +263,7 @@ img.heroimage {width: 44%;margin: 0 auto;position: absolute;top: 13.5em;right: 0
 .container {padding: 25px 0 28px;}
 .masthead .del-monte-logo {left: 103px;}
 .prizes #main .cta-wrap .cta1{display:block;}
-
+.socialshare img {width:55px;float:none;margin-left:0;display:block;}
 }
 
 @media (max-width: 450px) {
@@ -275,9 +276,10 @@ img.heroimage {width: 44%;margin: 0 auto;position: absolute;top: 13.5em;right: 0
 .nav li#main-logo a {margin:-80px auto 0;width: 130px;}
 .masthead .del-monte-logo {display:none;}
 .home .hero h4 {width: auto;width:auto;}
+.recipe .hero h4 {margin:0!important;}
 img.heroimage {width: 68%;margin: 0 auto;position: static;}
 .home .hero  {text-align:center;}/* center home only */
-.hero  {background-image:none;background-color:#870505;position:relative;z-index:0;
+.hero, .recipe .hero  {background-image:none;background-color:#870505;position:relative;z-index:0;
 background: #870505; /* Old browsers */
 background: -moz-radial-gradient(center, ellipse cover,  #dd3030 1%, #870505 100%); /* FF3.6+ */
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#dd3030), color-stop(100%,#870505)); /* Chrome,Safari4+ */
@@ -321,7 +323,8 @@ img.heroimage {width: 80%;}
 h6{font-size:1.7em;}
 .signin {font-size:1.5em;right:-5px;}
 p, #main ul, ol {font-size:1.7em;}
-
+.socialshare img {margin-left:5px!important;float:left;}
+.socialshare  {width: 200px;margin: 0 auto;float: none;clear: left;padding-top:14px;}
 }
 @media (max-width: 315px) {
 .masthead .container{margin-left:1px!important;margin-right:1px!important;}
