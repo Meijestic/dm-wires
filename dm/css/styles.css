@@ -163,8 +163,9 @@ b {font-weight:inherit;}
 /* misc
 ============================================ */
 .pageinfowrap p {margin-top:8px;}
-.socialshare > div {padding-bottom:12px;}
-.facebookwrap {overflow:hidden;width:61px;}
+.socialshare > div {padding-bottom:4px;}
+.facebookwrap {overflow:hidden;width:50px;}
+.pintrestwrap {height:23px;}
 
 /* responsive
 ============================================ */
