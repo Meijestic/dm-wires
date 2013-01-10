@@ -146,8 +146,8 @@ background: linear-gradient(to bottom,  #fec800 1%,#d6a400 100%); /* W3C */
 .userphoto {padding:10px;box-shadow:0 1px 4px rgba(0,0,0,0.7);background:#fff;box-sizing:border-box;-moz-box-sizing: border-box; -webkit-box-sizing: border-box;margin-bottom:16px;}
 .lt-ie8 .userphoto {padding:0;border:1px solid #555;}
 .overview {position:relative;}
-.ratingwrap img{width:43px;float:right;margin-left:-3px;float:none;width:27px;}
-.ratingwrap{position:absolute;}
+.ratingwrap img{width:43px;float:right;margin-left:-3px;width:27px;}
+.ratingwrap{position:absolute;top:3px;right:0;}
 
 /* utility
 ============================================ */
